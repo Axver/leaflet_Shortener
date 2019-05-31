@@ -40,10 +40,21 @@
         marker_1.color('circle_green');
         marker_1.popup("text","open");
         // Adding Click Function
-        maps.mapFunction("click");
+        // maps.mapFunction("click");
         // Disbaled Drag Function
-        maps.mapFunction("disabled_drag");
+        // maps.mapFunction("disabled_drag");
         maps.mapFunction("locate",16);
+
+        // marker_2=maps.marker(99.770569,0.215825);
+        // Icon Using URL Custom Icon
+        // marker_2.url("https://cdn1.iconfinder.com/data/icons/rafif-rounded-glyph-vol-3/512/vol.3_pin-512.png");
+        
+        // Adding size for marker
+        // marker_2.url("https://cdn1.iconfinder.com/data/icons/rafif-rounded-glyph-vol-3/512/vol.3_pin-512.png",40,40);
+    
+        maps.polygon();
+        circle=maps.circle(0.205825,98.770569);
+        
     </script>
 
 </body>
